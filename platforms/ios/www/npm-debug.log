@@ -1,0 +1,927 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'cordova-plugins' ]
+2 info using npm@1.2.17
+3 info using node@v0.10.3
+4 verbose read json /Users/Ali/package.json
+5 verbose read json /Users/Ali/node_modules/bower/package.json
+6 verbose read json /Users/Ali/node_modules/g/package.json
+7 verbose read json /Users/Ali/node_modules/generator-mocha/package.json
+8 verbose read json /Users/Ali/node_modules/grunt-cli/package.json
+9 verbose read json /Users/Ali/node_modules/yo/package.json
+10 verbose read json /Users/Ali/package.json
+11 verbose cache add [ 'cordova-plugins', null ]
+12 verbose cache add name=undefined spec="cordova-plugins" args=["cordova-plugins",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'cordova-plugins',
+13 verbose parsed url   path: 'cordova-plugins',
+13 verbose parsed url   href: 'cordova-plugins' }
+14 silly lockFile b03a4efc-cordova-plugins cordova-plugins
+15 verbose lock cordova-plugins /Users/Ali/.npm/b03a4efc-cordova-plugins.lock
+16 silly lockFile b03a4efc-cordova-plugins cordova-plugins
+17 silly lockFile b03a4efc-cordova-plugins cordova-plugins
+18 verbose addNamed [ 'cordova-plugins', '' ]
+19 verbose addNamed [ null, '' ]
+20 silly lockFile ccc9f2b0-cordova-plugins cordova-plugins@
+21 verbose lock cordova-plugins@ /Users/Ali/.npm/ccc9f2b0-cordova-plugins.lock
+22 silly addNameRange { name: 'cordova-plugins', range: '', hasData: false }
+23 verbose url raw cordova-plugins
+24 verbose url resolving [ 'https://registry.npmjs.org/', './cordova-plugins' ]
+25 verbose url resolved https://registry.npmjs.org/cordova-plugins
+26 info trying registry request attempt 1 at 15:27:23
+27 http GET https://registry.npmjs.org/cordova-plugins
+28 http 200 https://registry.npmjs.org/cordova-plugins
+29 silly registry.get cb [ 200,
+29 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:26 GMT',
+29 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+29 silly registry.get     etag: '"4Y3N4VHY9RD07EXLI45M4FYW8"',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'content-length': '28302',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     'x-served-by': 'cache-fra1227-FRA',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1389176845.888281345,VS0,VE381',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 silly addNameRange number 2 { name: 'cordova-plugins', range: '', hasData: true }
+31 silly addNameRange versions [ 'cordova-plugins',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.0.7',
+31 silly addNameRange     '0.0.8' ] ]
+32 verbose addNamed [ 'cordova-plugins', '0.0.8' ]
+33 verbose addNamed [ '0.0.8', '0.0.8' ]
+34 silly lockFile 0726f6b2-cordova-plugins-0-0-8 cordova-plugins@0.0.8
+35 verbose lock cordova-plugins@0.0.8 /Users/Ali/.npm/0726f6b2-cordova-plugins-0-0-8.lock
+36 silly lockFile 1c40cb06-lugins-cordova-plugins-0-0-8-tgz https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz
+37 verbose lock https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz /Users/Ali/.npm/1c40cb06-lugins-cordova-plugins-0-0-8-tgz.lock
+38 verbose addRemoteTarball [ 'https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz',
+38 verbose addRemoteTarball   'c467883929a7591e2108a45e7ac78adf9ce0cda1' ]
+39 info retry fetch attempt 1 at 15:27:26
+40 verbose fetch to= /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+41 http GET https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz
+42 http 200 https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz
+43 silly shasum updated bytes 4512
+44 info shasum c467883929a7591e2108a45e7ac78adf9ce0cda1
+44 info shasum /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+45 verbose tar unpack /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+46 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+47 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package /Users/Ali/.npm/6b63ccc6-46846-0-5533263452816755-package.lock
+48 silly lockFile 4a843898-46846-0-5533263452816755-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+49 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz /Users/Ali/.npm/4a843898-46846-0-5533263452816755-tmp-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm extractEntry .npmignore
+53 silly gunzTarPerm extractEntry README.md
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm extractEntry bin/cordova-plugins.js
+56 silly gunzTarPerm extractEntry scripts/plugreg-com.js
+57 silly gunzTarPerm extractEntry scripts/registry-cordova-io.js
+58 verbose read json /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package/package.json
+59 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+60 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+61 silly lockFile 4a843898-46846-0-5533263452816755-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+62 silly lockFile 4a843898-46846-0-5533263452816755-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/tmp.tgz
+63 verbose from cache /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package/package.json
+64 verbose tar pack [ '/Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz',
+64 verbose tar pack   '/var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package' ]
+65 verbose tarball /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+66 verbose folder /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+67 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+68 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package /Users/Ali/.npm/6b63ccc6-46846-0-5533263452816755-package.lock
+69 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+70 verbose lock /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz /Users/Ali/.npm/d223bb61-ordova-plugins-0-0-8-package-tgz.lock
+71 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+72 silly lockFile 6b63ccc6-46846-0-5533263452816755-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176846846-0.5533263452816755/package
+73 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+74 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+75 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+76 verbose lock /Users/Ali/.npm/cordova-plugins/0.0.8/package /Users/Ali/.npm/49b55fcc-pm-cordova-plugins-0-0-8-package.lock
+77 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+78 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+79 verbose tar unpack /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+80 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+81 verbose lock /Users/Ali/.npm/cordova-plugins/0.0.8/package /Users/Ali/.npm/49b55fcc-pm-cordova-plugins-0-0-8-package.lock
+82 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+83 verbose lock /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz /Users/Ali/.npm/d223bb61-ordova-plugins-0-0-8-package-tgz.lock
+84 silly gunzTarPerm modes [ '755', '644' ]
+85 silly gunzTarPerm extractEntry package.json
+86 silly gunzTarPerm extractEntry .npmignore
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm extractEntry LICENSE
+89 silly gunzTarPerm extractEntry bin/cordova-plugins.js
+90 silly gunzTarPerm extractEntry scripts/plugreg-com.js
+91 silly gunzTarPerm extractEntry scripts/registry-cordova-io.js
+92 verbose read json /Users/Ali/.npm/cordova-plugins/0.0.8/package/package.json
+93 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+94 silly lockFile 49b55fcc-pm-cordova-plugins-0-0-8-package /Users/Ali/.npm/cordova-plugins/0.0.8/package
+95 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+96 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+97 silly shasum updated bytes 4512
+98 info shasum c467883929a7591e2108a45e7ac78adf9ce0cda1
+98 info shasum /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+99 verbose from cache /Users/Ali/.npm/cordova-plugins/0.0.8/package/package.json
+100 verbose chmod /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz 644
+101 verbose chown /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz [ 501, 20 ]
+102 silly lockFile 1c40cb06-lugins-cordova-plugins-0-0-8-tgz https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz
+103 silly lockFile 1c40cb06-lugins-cordova-plugins-0-0-8-tgz https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz
+104 silly lockFile 0726f6b2-cordova-plugins-0-0-8 cordova-plugins@0.0.8
+105 silly lockFile 0726f6b2-cordova-plugins-0-0-8 cordova-plugins@0.0.8
+106 silly lockFile ccc9f2b0-cordova-plugins cordova-plugins@
+107 silly lockFile ccc9f2b0-cordova-plugins cordova-plugins@
+108 silly resolved [ { name: 'cordova-plugins',
+108 silly resolved     version: '0.0.8',
+108 silly resolved     author:
+108 silly resolved      { name: 'Cesidio DiBenedetto',
+108 silly resolved        email: 'sid.dibenedetto@gmail.com' },
+108 silly resolved     description: 'List/download available Phonegap plugins from http://plugins.cordova.io and http://plugreg.com',
+108 silly resolved     keywords: [ 'cordova', 'phonegap', 'plugins' ],
+108 silly resolved     preferGlobal: true,
+108 silly resolved     repository:
+108 silly resolved      { type: 'git',
+108 silly resolved        url: 'https://github.com/cdibened/cordova-plugins.git' },
+108 silly resolved     homepage: 'https://github.com/cdibened/cordova-plugins',
+108 silly resolved     bin: { 'cordova-plugins': './bin/cordova-plugins.js' },
+108 silly resolved     bugs: { url: 'https://github.com/cdibened/cordova-plugins/issues' },
+108 silly resolved     license: 'MIT',
+108 silly resolved     dependencies:
+108 silly resolved      { 'cli-color': '>=0.2.3',
+108 silly resolved        exit: '>=0.0.1',
+108 silly resolved        moment: '>=2.4.0',
+108 silly resolved        nopt: '>=2.1.2',
+108 silly resolved        prompt: '>=0.2.*',
+108 silly resolved        request: '>=2.27.0',
+108 silly resolved        'update-notifier': '>=0.1.7',
+108 silly resolved        ping: '>=0.1.6' },
+108 silly resolved     engines: { node: '>=0.8.0' },
+108 silly resolved     readme: 'cordova-plugins\n===============\n\nNPM package to list/download available Phonegap plugins from [http://plugins.cordova.io/](http://plugins.cordova.io/) and/or\n[http://plugreg.com/](http://plugreg.com/)\n\nComparison between the two sites:\n\nhttp://plugreg.com | http://plugins.cordova.io\n--- | ---\nREST API | REST API\n~270 plugins | ~100 plugins\nGit plugin project URL | .tgz plugin tarball URL\nSupports platform filter | No support for platform filter\nSupports version number | Supports version number\nSupports modified date | Supports modified date\n\n\n*Modified date is color coded to give an indication on the activity.\n\nBright Green - activity within the previous month\n\nBright Yellow - activity between 1 and 2 months ago\n\nBright Red - activity more than 2 months ago\n\n\n###Installation\n\n`sudo npm install -g cordova-plugins`\n\n###Usage\n\n\ncordova-plugins [options] command [term]\n```\ncommands:\n    list       - display all available plugins\n    search     - search plugins for a specfic term/phrase\n\noptions:\n    -p         - comma delimited (no spaces) platforms to filter by.\n                Valid platforms are: ios, android, blackberry10, wp7, wp8, firefoxos.\n                Default is all.\n    -u         - the url of the repo to use.\n                Valid urls are: http://plugreg.com (shortform plugreg) and\n                http://plugins.cordova.io. Default is http://plugins.cordova.io\n\nterm           - term to use when using the `search` command.\n                Wrap the term in quotes if there are spaces.\n\n```\n\n###Examples\ncordova-plugins -p ios,android list\n\n- will list all plugins from `http://plugins.cordova.io` (the -p option has no effect)\n\ncordova-plugins -p ios,android -u http://plugreg.com (or plugreg) list\n\n- will list all plugins from `http://plugreg.com` that are on the ios and/or android platforms\n\ncordova-plugins search camera\n\n- will list all plugins from `http://plugins.cordova.io` that have the term `camera` in the name or description.  The search term matches will be highlighted and CAPTIALIZED to notice easier.\n\n\n###2-Dew\n\n- Hook into cordova-cli `add plugin` command.\n- Optimize and clean up code\n\n\n',
+108 silly resolved     readmeFilename: 'README.md',
+108 silly resolved     _id: 'cordova-plugins@0.0.8',
+108 silly resolved     dist: { shasum: 'c467883929a7591e2108a45e7ac78adf9ce0cda1' },
+108 silly resolved     _from: 'cordova-plugins@',
+108 silly resolved     _resolved: 'https://registry.npmjs.org/cordova-plugins/-/cordova-plugins-0.0.8.tgz' } ]
+109 info install cordova-plugins@0.0.8 into /Users/Ali
+110 info installOne cordova-plugins@0.0.8
+111 verbose from cache /Users/Ali/.npm/cordova-plugins/0.0.8/package/package.json
+112 info /Users/Ali/node_modules/cordova-plugins unbuild
+113 verbose read json /Users/Ali/node_modules/cordova-plugins/package.json
+114 verbose tar unpack /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+115 silly lockFile d539ad98-Ali-node-modules-cordova-plugins /Users/Ali/node_modules/cordova-plugins
+116 verbose lock /Users/Ali/node_modules/cordova-plugins /Users/Ali/.npm/d539ad98-Ali-node-modules-cordova-plugins.lock
+117 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+118 verbose lock /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz /Users/Ali/.npm/d223bb61-ordova-plugins-0-0-8-package-tgz.lock
+119 silly gunzTarPerm modes [ '755', '644' ]
+120 silly gunzTarPerm extractEntry package.json
+121 silly gunzTarPerm extractEntry .npmignore
+122 silly gunzTarPerm extractEntry README.md
+123 silly gunzTarPerm extractEntry LICENSE
+124 silly gunzTarPerm extractEntry bin/cordova-plugins.js
+125 silly gunzTarPerm extractEntry scripts/plugreg-com.js
+126 silly gunzTarPerm extractEntry scripts/registry-cordova-io.js
+127 verbose read json /Users/Ali/node_modules/cordova-plugins/package.json
+128 silly lockFile d539ad98-Ali-node-modules-cordova-plugins /Users/Ali/node_modules/cordova-plugins
+129 silly lockFile d539ad98-Ali-node-modules-cordova-plugins /Users/Ali/node_modules/cordova-plugins
+130 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+131 silly lockFile d223bb61-ordova-plugins-0-0-8-package-tgz /Users/Ali/.npm/cordova-plugins/0.0.8/package.tgz
+132 info preinstall cordova-plugins@0.0.8
+133 verbose from cache /Users/Ali/node_modules/cordova-plugins/package.json
+134 verbose readDependencies using package.json deps
+135 verbose from cache /Users/Ali/node_modules/cordova-plugins/package.json
+136 verbose readDependencies using package.json deps
+137 verbose cache add [ 'moment@>=2.4.0', null ]
+138 verbose cache add name=undefined spec="moment@>=2.4.0" args=["moment@>=2.4.0",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'moment@%3E=2.4.0',
+139 verbose parsed url   path: 'moment@%3E=2.4.0',
+139 verbose parsed url   href: 'moment@%3E=2.4.0' }
+140 verbose cache add name="moment" spec=">=2.4.0" args=["moment",">=2.4.0"]
+141 verbose parsed url { protocol: null,
+141 verbose parsed url   slashes: null,
+141 verbose parsed url   auth: null,
+141 verbose parsed url   host: null,
+141 verbose parsed url   port: null,
+141 verbose parsed url   hostname: null,
+141 verbose parsed url   hash: null,
+141 verbose parsed url   search: null,
+141 verbose parsed url   query: null,
+141 verbose parsed url   pathname: '%3E=2.4.0',
+141 verbose parsed url   path: '%3E=2.4.0',
+141 verbose parsed url   href: '%3E=2.4.0' }
+142 verbose addNamed [ 'moment', '>=2.4.0' ]
+143 verbose addNamed [ null, '>=2.4.0' ]
+144 silly lockFile c1c05822-moment-2-4-0 moment@>=2.4.0
+145 verbose lock moment@>=2.4.0 /Users/Ali/.npm/c1c05822-moment-2-4-0.lock
+146 verbose cache add [ 'nopt@>=2.1.2', null ]
+147 verbose cache add name=undefined spec="nopt@>=2.1.2" args=["nopt@>=2.1.2",null]
+148 verbose parsed url { protocol: null,
+148 verbose parsed url   slashes: null,
+148 verbose parsed url   auth: null,
+148 verbose parsed url   host: null,
+148 verbose parsed url   port: null,
+148 verbose parsed url   hostname: null,
+148 verbose parsed url   hash: null,
+148 verbose parsed url   search: null,
+148 verbose parsed url   query: null,
+148 verbose parsed url   pathname: 'nopt@%3E=2.1.2',
+148 verbose parsed url   path: 'nopt@%3E=2.1.2',
+148 verbose parsed url   href: 'nopt@%3E=2.1.2' }
+149 verbose cache add name="nopt" spec=">=2.1.2" args=["nopt",">=2.1.2"]
+150 verbose parsed url { protocol: null,
+150 verbose parsed url   slashes: null,
+150 verbose parsed url   auth: null,
+150 verbose parsed url   host: null,
+150 verbose parsed url   port: null,
+150 verbose parsed url   hostname: null,
+150 verbose parsed url   hash: null,
+150 verbose parsed url   search: null,
+150 verbose parsed url   query: null,
+150 verbose parsed url   pathname: '%3E=2.1.2',
+150 verbose parsed url   path: '%3E=2.1.2',
+150 verbose parsed url   href: '%3E=2.1.2' }
+151 verbose addNamed [ 'nopt', '>=2.1.2' ]
+152 verbose addNamed [ null, '>=2.1.2' ]
+153 silly lockFile 9833233f-nopt-2-1-2 nopt@>=2.1.2
+154 verbose lock nopt@>=2.1.2 /Users/Ali/.npm/9833233f-nopt-2-1-2.lock
+155 verbose cache add [ 'prompt@>=0.2.*', null ]
+156 verbose cache add name=undefined spec="prompt@>=0.2.*" args=["prompt@>=0.2.*",null]
+157 verbose parsed url { protocol: null,
+157 verbose parsed url   slashes: null,
+157 verbose parsed url   auth: null,
+157 verbose parsed url   host: null,
+157 verbose parsed url   port: null,
+157 verbose parsed url   hostname: null,
+157 verbose parsed url   hash: null,
+157 verbose parsed url   search: null,
+157 verbose parsed url   query: null,
+157 verbose parsed url   pathname: 'prompt@%3E=0.2.*',
+157 verbose parsed url   path: 'prompt@%3E=0.2.*',
+157 verbose parsed url   href: 'prompt@%3E=0.2.*' }
+158 verbose cache add name="prompt" spec=">=0.2.*" args=["prompt",">=0.2.*"]
+159 verbose parsed url { protocol: null,
+159 verbose parsed url   slashes: null,
+159 verbose parsed url   auth: null,
+159 verbose parsed url   host: null,
+159 verbose parsed url   port: null,
+159 verbose parsed url   hostname: null,
+159 verbose parsed url   hash: null,
+159 verbose parsed url   search: null,
+159 verbose parsed url   query: null,
+159 verbose parsed url   pathname: '%3E=0.2.*',
+159 verbose parsed url   path: '%3E=0.2.*',
+159 verbose parsed url   href: '%3E=0.2.*' }
+160 verbose addNamed [ 'prompt', '>=0.2.*' ]
+161 verbose addNamed [ null, null ]
+162 silly lockFile 0b1cd744-prompt-0-2 prompt@>=0.2.*
+163 verbose lock prompt@>=0.2.* /Users/Ali/.npm/0b1cd744-prompt-0-2.lock
+164 verbose cache add [ 'request@>=2.27.0', null ]
+165 verbose cache add name=undefined spec="request@>=2.27.0" args=["request@>=2.27.0",null]
+166 verbose parsed url { protocol: null,
+166 verbose parsed url   slashes: null,
+166 verbose parsed url   auth: null,
+166 verbose parsed url   host: null,
+166 verbose parsed url   port: null,
+166 verbose parsed url   hostname: null,
+166 verbose parsed url   hash: null,
+166 verbose parsed url   search: null,
+166 verbose parsed url   query: null,
+166 verbose parsed url   pathname: 'request@%3E=2.27.0',
+166 verbose parsed url   path: 'request@%3E=2.27.0',
+166 verbose parsed url   href: 'request@%3E=2.27.0' }
+167 verbose cache add name="request" spec=">=2.27.0" args=["request",">=2.27.0"]
+168 verbose parsed url { protocol: null,
+168 verbose parsed url   slashes: null,
+168 verbose parsed url   auth: null,
+168 verbose parsed url   host: null,
+168 verbose parsed url   port: null,
+168 verbose parsed url   hostname: null,
+168 verbose parsed url   hash: null,
+168 verbose parsed url   search: null,
+168 verbose parsed url   query: null,
+168 verbose parsed url   pathname: '%3E=2.27.0',
+168 verbose parsed url   path: '%3E=2.27.0',
+168 verbose parsed url   href: '%3E=2.27.0' }
+169 verbose addNamed [ 'request', '>=2.27.0' ]
+170 verbose addNamed [ null, '>=2.27.0' ]
+171 silly lockFile ff59bfb1-request-2-27-0 request@>=2.27.0
+172 verbose lock request@>=2.27.0 /Users/Ali/.npm/ff59bfb1-request-2-27-0.lock
+173 silly addNameRange { name: 'moment', range: '>=2.4.0', hasData: false }
+174 silly addNameRange { name: 'nopt', range: '>=2.1.2', hasData: false }
+175 info addNameTag [ 'prompt', '>=0.2.*' ]
+176 verbose cache add [ 'update-notifier@>=0.1.7', null ]
+177 verbose cache add name=undefined spec="update-notifier@>=0.1.7" args=["update-notifier@>=0.1.7",null]
+178 verbose parsed url { protocol: null,
+178 verbose parsed url   slashes: null,
+178 verbose parsed url   auth: null,
+178 verbose parsed url   host: null,
+178 verbose parsed url   port: null,
+178 verbose parsed url   hostname: null,
+178 verbose parsed url   hash: null,
+178 verbose parsed url   search: null,
+178 verbose parsed url   query: null,
+178 verbose parsed url   pathname: 'update-notifier@%3E=0.1.7',
+178 verbose parsed url   path: 'update-notifier@%3E=0.1.7',
+178 verbose parsed url   href: 'update-notifier@%3E=0.1.7' }
+179 verbose cache add name="update-notifier" spec=">=0.1.7" args=["update-notifier",">=0.1.7"]
+180 verbose parsed url { protocol: null,
+180 verbose parsed url   slashes: null,
+180 verbose parsed url   auth: null,
+180 verbose parsed url   host: null,
+180 verbose parsed url   port: null,
+180 verbose parsed url   hostname: null,
+180 verbose parsed url   hash: null,
+180 verbose parsed url   search: null,
+180 verbose parsed url   query: null,
+180 verbose parsed url   pathname: '%3E=0.1.7',
+180 verbose parsed url   path: '%3E=0.1.7',
+180 verbose parsed url   href: '%3E=0.1.7' }
+181 verbose addNamed [ 'update-notifier', '>=0.1.7' ]
+182 verbose addNamed [ null, '>=0.1.7' ]
+183 silly lockFile 5ab47386-update-notifier-0-1-7 update-notifier@>=0.1.7
+184 verbose lock update-notifier@>=0.1.7 /Users/Ali/.npm/5ab47386-update-notifier-0-1-7.lock
+185 verbose cache add [ 'ping@>=0.1.6', null ]
+186 verbose cache add name=undefined spec="ping@>=0.1.6" args=["ping@>=0.1.6",null]
+187 verbose parsed url { protocol: null,
+187 verbose parsed url   slashes: null,
+187 verbose parsed url   auth: null,
+187 verbose parsed url   host: null,
+187 verbose parsed url   port: null,
+187 verbose parsed url   hostname: null,
+187 verbose parsed url   hash: null,
+187 verbose parsed url   search: null,
+187 verbose parsed url   query: null,
+187 verbose parsed url   pathname: 'ping@%3E=0.1.6',
+187 verbose parsed url   path: 'ping@%3E=0.1.6',
+187 verbose parsed url   href: 'ping@%3E=0.1.6' }
+188 verbose cache add name="ping" spec=">=0.1.6" args=["ping",">=0.1.6"]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: '%3E=0.1.6',
+189 verbose parsed url   path: '%3E=0.1.6',
+189 verbose parsed url   href: '%3E=0.1.6' }
+190 verbose addNamed [ 'ping', '>=0.1.6' ]
+191 verbose addNamed [ null, '>=0.1.6' ]
+192 silly lockFile 28b38523-ping-0-1-6 ping@>=0.1.6
+193 verbose lock ping@>=0.1.6 /Users/Ali/.npm/28b38523-ping-0-1-6.lock
+194 silly addNameRange { name: 'request', range: '>=2.27.0', hasData: false }
+195 silly addNameRange { name: 'update-notifier', range: '>=0.1.7', hasData: false }
+196 verbose cache add [ 'cli-color@>=0.2.3', null ]
+197 verbose cache add name=undefined spec="cli-color@>=0.2.3" args=["cli-color@>=0.2.3",null]
+198 verbose parsed url { protocol: null,
+198 verbose parsed url   slashes: null,
+198 verbose parsed url   auth: null,
+198 verbose parsed url   host: null,
+198 verbose parsed url   port: null,
+198 verbose parsed url   hostname: null,
+198 verbose parsed url   hash: null,
+198 verbose parsed url   search: null,
+198 verbose parsed url   query: null,
+198 verbose parsed url   pathname: 'cli-color@%3E=0.2.3',
+198 verbose parsed url   path: 'cli-color@%3E=0.2.3',
+198 verbose parsed url   href: 'cli-color@%3E=0.2.3' }
+199 verbose cache add name="cli-color" spec=">=0.2.3" args=["cli-color",">=0.2.3"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '%3E=0.2.3',
+200 verbose parsed url   path: '%3E=0.2.3',
+200 verbose parsed url   href: '%3E=0.2.3' }
+201 verbose addNamed [ 'cli-color', '>=0.2.3' ]
+202 verbose addNamed [ null, '>=0.2.3' ]
+203 silly lockFile afd32048-cli-color-0-2-3 cli-color@>=0.2.3
+204 verbose lock cli-color@>=0.2.3 /Users/Ali/.npm/afd32048-cli-color-0-2-3.lock
+205 verbose cache add [ 'exit@>=0.0.1', null ]
+206 verbose cache add name=undefined spec="exit@>=0.0.1" args=["exit@>=0.0.1",null]
+207 verbose parsed url { protocol: null,
+207 verbose parsed url   slashes: null,
+207 verbose parsed url   auth: null,
+207 verbose parsed url   host: null,
+207 verbose parsed url   port: null,
+207 verbose parsed url   hostname: null,
+207 verbose parsed url   hash: null,
+207 verbose parsed url   search: null,
+207 verbose parsed url   query: null,
+207 verbose parsed url   pathname: 'exit@%3E=0.0.1',
+207 verbose parsed url   path: 'exit@%3E=0.0.1',
+207 verbose parsed url   href: 'exit@%3E=0.0.1' }
+208 verbose cache add name="exit" spec=">=0.0.1" args=["exit",">=0.0.1"]
+209 verbose parsed url { protocol: null,
+209 verbose parsed url   slashes: null,
+209 verbose parsed url   auth: null,
+209 verbose parsed url   host: null,
+209 verbose parsed url   port: null,
+209 verbose parsed url   hostname: null,
+209 verbose parsed url   hash: null,
+209 verbose parsed url   search: null,
+209 verbose parsed url   query: null,
+209 verbose parsed url   pathname: '%3E=0.0.1',
+209 verbose parsed url   path: '%3E=0.0.1',
+209 verbose parsed url   href: '%3E=0.0.1' }
+210 verbose addNamed [ 'exit', '>=0.0.1' ]
+211 verbose addNamed [ null, '>=0.0.1' ]
+212 silly lockFile d1a6ee25-exit-0-0-1 exit@>=0.0.1
+213 verbose lock exit@>=0.0.1 /Users/Ali/.npm/d1a6ee25-exit-0-0-1.lock
+214 silly addNameRange { name: 'ping', range: '>=0.1.6', hasData: false }
+215 silly addNameRange { name: 'cli-color', range: '>=0.2.3', hasData: false }
+216 silly addNameRange { name: 'exit', range: '>=0.0.1', hasData: false }
+217 verbose url raw ping
+218 verbose url resolving [ 'https://registry.npmjs.org/', './ping' ]
+219 verbose url resolved https://registry.npmjs.org/ping
+220 info trying registry request attempt 1 at 15:27:28
+221 http GET https://registry.npmjs.org/ping
+222 verbose url raw nopt
+223 verbose url resolving [ 'https://registry.npmjs.org/', './nopt' ]
+224 verbose url resolved https://registry.npmjs.org/nopt
+225 info trying registry request attempt 1 at 15:27:28
+226 verbose etag "DJRBEL3WAPM7JVR89XHXNNQ95"
+227 http GET https://registry.npmjs.org/nopt
+228 verbose url raw prompt
+229 verbose url resolving [ 'https://registry.npmjs.org/', './prompt' ]
+230 verbose url resolved https://registry.npmjs.org/prompt
+231 info trying registry request attempt 1 at 15:27:28
+232 verbose etag "90F35F7H291FRIUEKKUUOWNQ2"
+233 http GET https://registry.npmjs.org/prompt
+234 verbose url raw moment
+235 verbose url resolving [ 'https://registry.npmjs.org/', './moment' ]
+236 verbose url resolved https://registry.npmjs.org/moment
+237 info trying registry request attempt 1 at 15:27:28
+238 verbose etag "5Y99E0GBZNMRC9TUO6LADXB43"
+239 http GET https://registry.npmjs.org/moment
+240 verbose url raw update-notifier
+241 verbose url resolving [ 'https://registry.npmjs.org/', './update-notifier' ]
+242 verbose url resolved https://registry.npmjs.org/update-notifier
+243 info trying registry request attempt 1 at 15:27:28
+244 verbose etag "32IOKNF376JZV8DPUSWWQ0GXY"
+245 http GET https://registry.npmjs.org/update-notifier
+246 verbose url raw request
+247 verbose url resolving [ 'https://registry.npmjs.org/', './request' ]
+248 verbose url resolved https://registry.npmjs.org/request
+249 info trying registry request attempt 1 at 15:27:28
+250 verbose etag "8A3OBQNWIBIXYZ9E6QR7ODREZ"
+251 http GET https://registry.npmjs.org/request
+252 verbose url raw exit
+253 verbose url resolving [ 'https://registry.npmjs.org/', './exit' ]
+254 verbose url resolved https://registry.npmjs.org/exit
+255 info trying registry request attempt 1 at 15:27:28
+256 verbose etag "315W6U6W1DLYC5D4JAE0A3Y2U"
+257 http GET https://registry.npmjs.org/exit
+258 verbose url raw cli-color
+259 verbose url resolving [ 'https://registry.npmjs.org/', './cli-color' ]
+260 verbose url resolved https://registry.npmjs.org/cli-color
+261 info trying registry request attempt 1 at 15:27:28
+262 verbose etag "BN4G22QR47D8RM71YEUVJVYF6"
+263 http GET https://registry.npmjs.org/cli-color
+264 http 304 https://registry.npmjs.org/moment
+265 silly registry.get cb [ 304,
+265 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:28 GMT',
+265 silly registry.get     server: 'Apache',
+265 silly registry.get     connection: 'Keep-Alive',
+265 silly registry.get     'keep-alive': 'timeout=10, max=50',
+265 silly registry.get     etag: '"5Y99E0GBZNMRC9TUO6LADXB43"',
+265 silly registry.get     vary: 'Accept' } ]
+266 verbose etag moment from cache
+267 silly addNameRange number 2 { name: 'moment', range: '>=2.4.0', hasData: true }
+268 silly addNameRange versions [ 'moment',
+268 silly addNameRange   [ '1.0.0',
+268 silly addNameRange     '1.0.1',
+268 silly addNameRange     '1.1.0',
+268 silly addNameRange     '1.1.1',
+268 silly addNameRange     '1.2.0',
+268 silly addNameRange     '1.3.0',
+268 silly addNameRange     '1.4.0',
+268 silly addNameRange     '1.5.0',
+268 silly addNameRange     '1.5.1',
+268 silly addNameRange     '1.6.0',
+268 silly addNameRange     '1.6.1',
+268 silly addNameRange     '1.6.2',
+268 silly addNameRange     '1.7.0',
+268 silly addNameRange     '1.7.1',
+268 silly addNameRange     '1.7.2',
+268 silly addNameRange     '2.0.0',
+268 silly addNameRange     '2.1.0',
+268 silly addNameRange     '2.2.1',
+268 silly addNameRange     '2.3.0',
+268 silly addNameRange     '2.3.1',
+268 silly addNameRange     '2.4.0',
+268 silly addNameRange     '2.5.0' ] ]
+269 verbose addNamed [ 'moment', '2.5.0' ]
+270 verbose addNamed [ '2.5.0', '2.5.0' ]
+271 silly lockFile b473f5bf-moment-2-5-0 moment@2.5.0
+272 verbose lock moment@2.5.0 /Users/Ali/.npm/b473f5bf-moment-2-5-0.lock
+273 silly lockFile 8ac6c616-pmjs-org-moment-moment-2-5-0-tgz https://registry.npmjs.org/moment/-/moment-2.5.0.tgz
+274 verbose lock https://registry.npmjs.org/moment/-/moment-2.5.0.tgz /Users/Ali/.npm/8ac6c616-pmjs-org-moment-moment-2-5-0-tgz.lock
+275 verbose addRemoteTarball [ 'https://registry.npmjs.org/moment/-/moment-2.5.0.tgz',
+275 verbose addRemoteTarball   'e49f0f26e3b74d3bc3564ea3176f99e6f7f32453' ]
+276 info retry fetch attempt 1 at 15:27:29
+277 verbose fetch to= /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176849358-0.014205643441528082/tmp.tgz
+278 http GET https://registry.npmjs.org/moment/-/moment-2.5.0.tgz
+279 http 304 https://registry.npmjs.org/nopt
+280 silly registry.get cb [ 304,
+280 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:28 GMT',
+280 silly registry.get     server: 'Apache',
+280 silly registry.get     connection: 'Keep-Alive',
+280 silly registry.get     'keep-alive': 'timeout=10, max=50',
+280 silly registry.get     etag: '"DJRBEL3WAPM7JVR89XHXNNQ95"',
+280 silly registry.get     vary: 'Accept' } ]
+281 verbose etag nopt from cache
+282 silly addNameRange number 2 { name: 'nopt', range: '>=2.1.2', hasData: true }
+283 silly addNameRange versions [ 'nopt',
+283 silly addNameRange   [ '1.0.0',
+283 silly addNameRange     '1.0.1',
+283 silly addNameRange     '1.0.2',
+283 silly addNameRange     '1.0.3',
+283 silly addNameRange     '1.0.4',
+283 silly addNameRange     '1.0.5',
+283 silly addNameRange     '1.0.6',
+283 silly addNameRange     '1.0.7',
+283 silly addNameRange     '1.0.8',
+283 silly addNameRange     '1.0.9',
+283 silly addNameRange     '1.0.10',
+283 silly addNameRange     '2.0.0',
+283 silly addNameRange     '2.1.0',
+283 silly addNameRange     '2.1.1',
+283 silly addNameRange     '2.1.2' ] ]
+284 verbose addNamed [ 'nopt', '2.1.2' ]
+285 verbose addNamed [ '2.1.2', '2.1.2' ]
+286 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+287 verbose lock nopt@2.1.2 /Users/Ali/.npm/7d0298b9-nopt-2-1-2.lock
+288 verbose read json /Users/Ali/.npm/nopt/2.1.2/package/package.json
+289 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+290 silly lockFile 7d0298b9-nopt-2-1-2 nopt@2.1.2
+291 silly lockFile 9833233f-nopt-2-1-2 nopt@>=2.1.2
+292 silly lockFile 9833233f-nopt-2-1-2 nopt@>=2.1.2
+293 http 200 https://registry.npmjs.org/exit
+294 silly registry.get cb [ 200,
+294 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:29 GMT',
+294 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+294 silly registry.get     etag: '"BJRSXY67OY4ZGGS06GL2BKR4U"',
+294 silly registry.get     'content-type': 'application/json',
+294 silly registry.get     'content-length': '14080',
+294 silly registry.get     'accept-ranges': 'bytes',
+294 silly registry.get     via: '1.1 varnish',
+294 silly registry.get     age: '6686',
+294 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+294 silly registry.get     'x-cache': 'HIT',
+294 silly registry.get     'x-cache-hits': '1',
+294 silly registry.get     'x-timer': 'S1389176849.350393772,VS0,VE137',
+294 silly registry.get     vary: 'Accept',
+294 silly registry.get     'keep-alive': 'timeout=10, max=49',
+294 silly registry.get     connection: 'Keep-Alive' } ]
+295 silly addNameRange number 2 { name: 'exit', range: '>=0.0.1', hasData: true }
+296 silly addNameRange versions [ 'exit', [ '0.1.0', '0.1.1', '0.1.2' ] ]
+297 verbose addNamed [ 'exit', '0.1.2' ]
+298 verbose addNamed [ '0.1.2', '0.1.2' ]
+299 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+300 verbose lock exit@0.1.2 /Users/Ali/.npm/7dd65db3-exit-0-1-2.lock
+301 verbose read json /Users/Ali/.npm/exit/0.1.2/package/package.json
+302 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+303 silly lockFile 7dd65db3-exit-0-1-2 exit@0.1.2
+304 silly lockFile d1a6ee25-exit-0-0-1 exit@>=0.0.1
+305 silly lockFile d1a6ee25-exit-0-0-1 exit@>=0.0.1
+306 http 304 https://registry.npmjs.org/cli-color
+307 silly registry.get cb [ 304,
+307 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:30 GMT',
+307 silly registry.get     server: 'Apache',
+307 silly registry.get     connection: 'Keep-Alive',
+307 silly registry.get     'keep-alive': 'timeout=10, max=48',
+307 silly registry.get     etag: '"BN4G22QR47D8RM71YEUVJVYF6"',
+307 silly registry.get     vary: 'Accept' } ]
+308 verbose etag cli-color from cache
+309 silly addNameRange number 2 { name: 'cli-color', range: '>=0.2.3', hasData: true }
+310 silly addNameRange versions [ 'cli-color',
+310 silly addNameRange   [ '0.1.0',
+310 silly addNameRange     '0.1.1',
+310 silly addNameRange     '0.1.2',
+310 silly addNameRange     '0.1.3',
+310 silly addNameRange     '0.1.4',
+310 silly addNameRange     '0.1.5',
+310 silly addNameRange     '0.1.6',
+310 silly addNameRange     '0.1.7',
+310 silly addNameRange     '0.2.0',
+310 silly addNameRange     '0.2.1',
+310 silly addNameRange     '0.2.2',
+310 silly addNameRange     '0.2.3' ] ]
+311 verbose addNamed [ 'cli-color', '0.2.3' ]
+312 verbose addNamed [ '0.2.3', '0.2.3' ]
+313 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+314 verbose lock cli-color@0.2.3 /Users/Ali/.npm/c1648217-cli-color-0-2-3.lock
+315 verbose read json /Users/Ali/.npm/cli-color/0.2.3/package/package.json
+316 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+317 silly lockFile c1648217-cli-color-0-2-3 cli-color@0.2.3
+318 silly lockFile afd32048-cli-color-0-2-3 cli-color@>=0.2.3
+319 silly lockFile afd32048-cli-color-0-2-3 cli-color@>=0.2.3
+320 http 304 https://registry.npmjs.org/request
+321 silly registry.get cb [ 304,
+321 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:30 GMT',
+321 silly registry.get     server: 'Apache',
+321 silly registry.get     connection: 'Keep-Alive',
+321 silly registry.get     'keep-alive': 'timeout=10, max=49',
+321 silly registry.get     etag: '"8A3OBQNWIBIXYZ9E6QR7ODREZ"',
+321 silly registry.get     vary: 'Accept' } ]
+322 verbose etag request from cache
+323 silly addNameRange number 2 { name: 'request', range: '>=2.27.0', hasData: true }
+324 silly addNameRange versions [ 'request',
+324 silly addNameRange   [ '0.10.0',
+324 silly addNameRange     '0.8.3',
+324 silly addNameRange     '0.9.0',
+324 silly addNameRange     '0.9.1',
+324 silly addNameRange     '0.9.5',
+324 silly addNameRange     '1.0.0',
+324 silly addNameRange     '1.1.0',
+324 silly addNameRange     '1.1.1',
+324 silly addNameRange     '1.2.0',
+324 silly addNameRange     '1.9.0',
+324 silly addNameRange     '1.9.1',
+324 silly addNameRange     '1.9.2',
+324 silly addNameRange     '1.9.3',
+324 silly addNameRange     '1.9.5',
+324 silly addNameRange     '1.9.7',
+324 silly addNameRange     '1.9.8',
+324 silly addNameRange     '1.9.9',
+324 silly addNameRange     '2.0.0',
+324 silly addNameRange     '2.0.1',
+324 silly addNameRange     '2.0.2',
+324 silly addNameRange     '2.0.3',
+324 silly addNameRange     '2.0.4',
+324 silly addNameRange     '2.0.5',
+324 silly addNameRange     '2.1.0',
+324 silly addNameRange     '2.1.1',
+324 silly addNameRange     '2.2.0',
+324 silly addNameRange     '2.2.5',
+324 silly addNameRange     '2.2.6',
+324 silly addNameRange     '2.2.9',
+324 silly addNameRange     '2.9.0',
+324 silly addNameRange     '2.9.1',
+324 silly addNameRange     '2.9.2',
+324 silly addNameRange     '2.9.3',
+324 silly addNameRange     '2.9.100',
+324 silly addNameRange     '2.9.150',
+324 silly addNameRange     '2.9.151',
+324 silly addNameRange     '2.9.152',
+324 silly addNameRange     '2.9.153',
+324 silly addNameRange     '2.9.200',
+324 silly addNameRange     '2.9.201',
+324 silly addNameRange     '2.9.202',
+324 silly addNameRange     '2.9.203',
+324 silly addNameRange     '2.10.0',
+324 silly addNameRange     '2.11.0',
+324 silly addNameRange     '2.11.1',
+324 silly addNameRange     '2.11.2',
+324 silly addNameRange     '2.11.3',
+324 silly addNameRange     '2.11.4',
+324 silly addNameRange     '2.12.0',
+324 silly addNameRange     '2.14.0',
+324 silly addNameRange     '2.16.0',
+324 silly addNameRange     '2.16.2',
+324 silly addNameRange     '2.16.4',
+324 silly addNameRange     '2.16.6',
+324 silly addNameRange     '2.18.0',
+324 silly addNameRange     '2.19.0',
+324 silly addNameRange     '2.20.0',
+324 silly addNameRange     '2.21.0',
+324 silly addNameRange     '2.22.0',
+324 silly addNameRange     '2.23.0',
+324 silly addNameRange     '2.24.0',
+324 silly addNameRange     '2.25.0',
+324 silly addNameRange     '2.26.0',
+324 silly addNameRange     '2.27.0',
+324 silly addNameRange     '2.28.0',
+324 silly addNameRange     '2.29.0',
+324 silly addNameRange     '2.30.0',
+324 silly addNameRange     '2.31.0' ] ]
+325 verbose addNamed [ 'request', '2.31.0' ]
+326 verbose addNamed [ '2.31.0', '2.31.0' ]
+327 silly lockFile 4c28aaf9-request-2-31-0 request@2.31.0
+328 verbose lock request@2.31.0 /Users/Ali/.npm/4c28aaf9-request-2-31-0.lock
+329 silly lockFile eae86d8a-s-org-request-request-2-31-0-tgz https://registry.npmjs.org/request/-/request-2.31.0.tgz
+330 verbose lock https://registry.npmjs.org/request/-/request-2.31.0.tgz /Users/Ali/.npm/eae86d8a-s-org-request-request-2-31-0-tgz.lock
+331 verbose addRemoteTarball [ 'https://registry.npmjs.org/request/-/request-2.31.0.tgz',
+331 verbose addRemoteTarball   '4c8ac967c9a4b9410cb4ba1a61fdb644267eeeff' ]
+332 info retry fetch attempt 1 at 15:27:30
+333 verbose fetch to= /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+334 http GET https://registry.npmjs.org/request/-/request-2.31.0.tgz
+335 http 200 https://registry.npmjs.org/moment/-/moment-2.5.0.tgz
+336 http 304 https://registry.npmjs.org/update-notifier
+337 silly registry.get cb [ 304,
+337 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:29 GMT',
+337 silly registry.get     server: 'Apache',
+337 silly registry.get     connection: 'Keep-Alive',
+337 silly registry.get     'keep-alive': 'timeout=10, max=50',
+337 silly registry.get     etag: '"32IOKNF376JZV8DPUSWWQ0GXY"',
+337 silly registry.get     vary: 'Accept' } ]
+338 verbose etag update-notifier from cache
+339 silly addNameRange number 2 { name: 'update-notifier', range: '>=0.1.7', hasData: true }
+340 silly addNameRange versions [ 'update-notifier',
+340 silly addNameRange   [ '0.1.0',
+340 silly addNameRange     '0.1.1',
+340 silly addNameRange     '0.1.2',
+340 silly addNameRange     '0.1.3',
+340 silly addNameRange     '0.1.4',
+340 silly addNameRange     '0.1.5',
+340 silly addNameRange     '0.1.6',
+340 silly addNameRange     '0.1.7' ] ]
+341 verbose addNamed [ 'update-notifier', '0.1.7' ]
+342 verbose addNamed [ '0.1.7', '0.1.7' ]
+343 silly lockFile 62c08ab7-update-notifier-0-1-7 update-notifier@0.1.7
+344 verbose lock update-notifier@0.1.7 /Users/Ali/.npm/62c08ab7-update-notifier-0-1-7.lock
+345 verbose read json /Users/Ali/.npm/update-notifier/0.1.7/package/package.json
+346 silly lockFile 62c08ab7-update-notifier-0-1-7 update-notifier@0.1.7
+347 silly lockFile 62c08ab7-update-notifier-0-1-7 update-notifier@0.1.7
+348 silly lockFile 5ab47386-update-notifier-0-1-7 update-notifier@>=0.1.7
+349 silly lockFile 5ab47386-update-notifier-0-1-7 update-notifier@>=0.1.7
+350 http 200 https://registry.npmjs.org/ping
+351 silly registry.get cb [ 200,
+351 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:29 GMT',
+351 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+351 silly registry.get     etag: '"TE1D5E0S2VQ0NW85YX0PPNO8"',
+351 silly registry.get     'content-type': 'application/json',
+351 silly registry.get     'content-length': '10019',
+351 silly registry.get     'accept-ranges': 'bytes',
+351 silly registry.get     via: '1.1 varnish',
+351 silly registry.get     age: '0',
+351 silly registry.get     'x-served-by': 'cache-fra1233-FRA',
+351 silly registry.get     'x-cache': 'MISS',
+351 silly registry.get     'x-cache-hits': '0',
+351 silly registry.get     'x-timer': 'S1389176848.965047121,VS0,VE274',
+351 silly registry.get     vary: 'Accept',
+351 silly registry.get     'keep-alive': 'timeout=10, max=50',
+351 silly registry.get     connection: 'Keep-Alive' } ]
+352 silly addNameRange number 2 { name: 'ping', range: '>=0.1.6', hasData: true }
+353 silly addNameRange versions [ 'ping',
+353 silly addNameRange   [ '0.1.0',
+353 silly addNameRange     '0.1.1',
+353 silly addNameRange     '0.1.2',
+353 silly addNameRange     '0.1.3',
+353 silly addNameRange     '0.1.4',
+353 silly addNameRange     '0.1.5',
+353 silly addNameRange     '0.1.6',
+353 silly addNameRange     '0.1.7' ] ]
+354 verbose addNamed [ 'ping', '0.1.7' ]
+355 verbose addNamed [ '0.1.7', '0.1.7' ]
+356 silly lockFile 8f033d1e-ping-0-1-7 ping@0.1.7
+357 verbose lock ping@0.1.7 /Users/Ali/.npm/8f033d1e-ping-0-1-7.lock
+358 silly lockFile b79b8047-ry-npmjs-org-ping-ping-0-1-7-tgz https://registry.npmjs.org/ping/-/ping-0.1.7.tgz
+359 verbose lock https://registry.npmjs.org/ping/-/ping-0.1.7.tgz /Users/Ali/.npm/b79b8047-ry-npmjs-org-ping-ping-0-1-7-tgz.lock
+360 verbose addRemoteTarball [ 'https://registry.npmjs.org/ping/-/ping-0.1.7.tgz',
+360 verbose addRemoteTarball   '1aa3c0c0a0d63a2e097c1011becff2c397d2e646' ]
+361 info retry fetch attempt 1 at 15:27:31
+362 verbose fetch to= /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176851439-0.7435970068909228/tmp.tgz
+363 http GET https://registry.npmjs.org/ping/-/ping-0.1.7.tgz
+364 http 200 https://registry.npmjs.org/request/-/request-2.31.0.tgz
+365 silly shasum updated bytes 20576
+366 info shasum 4c8ac967c9a4b9410cb4ba1a61fdb644267eeeff
+366 info shasum /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+367 verbose tar unpack /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+368 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+369 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package /Users/Ali/.npm/dd9cd423-50565-0-5103838932700455-package.lock
+370 silly lockFile e3c95ee9-50565-0-5103838932700455-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+371 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz /Users/Ali/.npm/e3c95ee9-50565-0-5103838932700455-tmp-tgz.lock
+372 silly gunzTarPerm modes [ '755', '644' ]
+373 silly gunzTarPerm extractEntry package.json
+374 silly gunzTarPerm extractEntry .npmignore
+375 silly gunzTarPerm extractEntry README.md
+376 silly gunzTarPerm extractEntry LICENSE
+377 silly gunzTarPerm extractEntry dns-request.js
+378 silly gunzTarPerm extractEntry index.js
+379 silly gunzTarPerm extractEntry request.js
+380 silly gunzTarPerm extractEntry .travis.yml
+381 silly gunzTarPerm extractEntry lib/copy.js
+382 silly gunzTarPerm extractEntry lib/debug.js
+383 silly gunzTarPerm extractEntry lib/getSafe.js
+384 silly gunzTarPerm extractEntry lib/optional.js
+385 verbose read json /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package/package.json
+386 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+387 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+388 silly lockFile e3c95ee9-50565-0-5103838932700455-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+389 silly lockFile e3c95ee9-50565-0-5103838932700455-tmp-tgz /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/tmp.tgz
+390 verbose from cache /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package/package.json
+391 verbose tar pack [ '/Users/Ali/.npm/request/2.31.0/package.tgz',
+391 verbose tar pack   '/var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package' ]
+392 verbose tarball /Users/Ali/.npm/request/2.31.0/package.tgz
+393 verbose folder /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+394 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+395 verbose lock /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package /Users/Ali/.npm/dd9cd423-50565-0-5103838932700455-package.lock
+396 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+397 verbose lock /Users/Ali/.npm/request/2.31.0/package.tgz /Users/Ali/.npm/ea0eebe8-i-npm-request-2-31-0-package-tgz.lock
+398 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+399 silly lockFile dd9cd423-50565-0-5103838932700455-package /var/folders/69/zl31xyj543l1j4gqmz7wb62h0000gn/T/npm-6445/1389176850565-0.5103838932700455/package
+400 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+401 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+402 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+403 verbose lock /Users/Ali/.npm/request/2.31.0/package /Users/Ali/.npm/1046c7fc-s-Ali-npm-request-2-31-0-package.lock
+404 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+405 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+406 verbose tar unpack /Users/Ali/.npm/request/2.31.0/package.tgz
+407 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+408 verbose lock /Users/Ali/.npm/request/2.31.0/package /Users/Ali/.npm/1046c7fc-s-Ali-npm-request-2-31-0-package.lock
+409 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+410 verbose lock /Users/Ali/.npm/request/2.31.0/package.tgz /Users/Ali/.npm/ea0eebe8-i-npm-request-2-31-0-package-tgz.lock
+411 silly gunzTarPerm modes [ '755', '644' ]
+412 silly gunzTarPerm extractEntry package.json
+413 silly gunzTarPerm extractEntry .npmignore
+414 silly gunzTarPerm extractEntry README.md
+415 silly gunzTarPerm extractEntry LICENSE
+416 silly gunzTarPerm extractEntry dns-request.js
+417 silly gunzTarPerm extractEntry index.js
+418 silly gunzTarPerm extractEntry request.js
+419 silly gunzTarPerm extractEntry .travis.yml
+420 silly gunzTarPerm extractEntry lib/copy.js
+421 silly gunzTarPerm extractEntry lib/debug.js
+422 silly gunzTarPerm extractEntry lib/getSafe.js
+423 silly gunzTarPerm extractEntry lib/optional.js
+424 verbose read json /Users/Ali/.npm/request/2.31.0/package/package.json
+425 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+426 silly lockFile 1046c7fc-s-Ali-npm-request-2-31-0-package /Users/Ali/.npm/request/2.31.0/package
+427 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+428 silly lockFile ea0eebe8-i-npm-request-2-31-0-package-tgz /Users/Ali/.npm/request/2.31.0/package.tgz
+429 silly shasum updated bytes 20576
+430 info shasum 4c8ac967c9a4b9410cb4ba1a61fdb644267eeeff
+430 info shasum /Users/Ali/.npm/request/2.31.0/package.tgz
+431 verbose from cache /Users/Ali/.npm/request/2.31.0/package/package.json
+432 verbose chmod /Users/Ali/.npm/request/2.31.0/package.tgz 644
+433 verbose chown /Users/Ali/.npm/request/2.31.0/package.tgz [ 501, 20 ]
+434 silly lockFile eae86d8a-s-org-request-request-2-31-0-tgz https://registry.npmjs.org/request/-/request-2.31.0.tgz
+435 silly lockFile eae86d8a-s-org-request-request-2-31-0-tgz https://registry.npmjs.org/request/-/request-2.31.0.tgz
+436 silly lockFile 4c28aaf9-request-2-31-0 request@2.31.0
+437 silly lockFile 4c28aaf9-request-2-31-0 request@2.31.0
+438 silly lockFile ff59bfb1-request-2-27-0 request@>=2.27.0
+439 silly lockFile ff59bfb1-request-2-27-0 request@>=2.27.0
+440 http 200 https://registry.npmjs.org/prompt
+441 silly registry.get cb [ 200,
+441 silly registry.get   { date: 'Wed, 08 Jan 2014 10:27:30 GMT',
+441 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R15B03)',
+441 silly registry.get     etag: '"76LNF1D4278UB8E8WBYLDTZYA"',
+441 silly registry.get     'content-type': 'application/json',
+441 silly registry.get     'content-length': '143035',
+441 silly registry.get     'accept-ranges': 'bytes',
+441 silly registry.get     via: '1.1 varnish',
+441 silly registry.get     age: '15083',
+441 silly registry.get     'x-served-by': 'cache-fra1229-FRA',
+441 silly registry.get     'x-cache': 'HIT',
+441 silly registry.get     'x-cache-hits': '1',
+441 silly registry.get     'x-timer': 'S1389176850.089708805,VS0,VE132',
+441 silly registry.get     vary: 'Accept',
+441 silly registry.get     'keep-alive': 'timeout=10, max=50',
+441 silly registry.get     connection: 'Keep-Alive' } ]
+442 silly lockFile 0b1cd744-prompt-0-2 prompt@>=0.2.*
+443 silly lockFile 0b1cd744-prompt-0-2 prompt@>=0.2.*
+444 verbose about to build /Users/Ali/node_modules/cordova-plugins
+445 info /Users/Ali/node_modules/cordova-plugins unbuild
+446 verbose from cache /Users/Ali/node_modules/cordova-plugins/package.json
+447 info preuninstall cordova-plugins@0.0.8
+448 info uninstall cordova-plugins@0.0.8
+449 verbose true,/Users/Ali/node_modules,/Users/Ali/node_modules unbuild cordova-plugins@0.0.8
+450 verbose /Users/Ali/node_modules/.bin,[object Object] binRoot
+451 info postuninstall cordova-plugins@0.0.8
+452 error Error: No compatible version found: prompt@'>=0.2.*'
+452 error Valid install targets:
+452 error ["0.0.1","0.0.2","0.0.3","0.0.4","0.1.0","0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.7","0.1.8","0.1.9","0.1.10","0.1.11","0.1.12","0.2.0","0.2.1","0.2.2","0.2.3","0.2.4","0.2.5","0.2.6","0.2.7","0.2.8","0.2.9","0.2.10","0.2.11","0.2.12"]
+452 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:685:10)
+452 error     at /usr/local/lib/node_modules/npm/lib/cache.js:607:10
+452 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+452 error     at Object.oncomplete (fs.js:107:15)
+453 error If you need help, you may report this log at:
+453 error     <http://github.com/isaacs/npm/issues>
+453 error or email it to:
+453 error     <npm-@googlegroups.com>
+454 error System Darwin 13.0.0
+455 error command "node" "/usr/local/bin/npm" "install" "cordova-plugins"
+456 error cwd /Users/Ali/hello/www
+457 error node -v v0.10.3
+458 error npm -v 1.2.17
+459 verbose exit [ 1, true ]
